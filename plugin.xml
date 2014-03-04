@@ -19,7 +19,7 @@
 
         <source-file src="src/android/Flurry.java"
                      target-dir="src/com/phonegap/plugins" />
-        <source-file src="src/android/FlurryAnalytics_3.3.2.jar"
+        <source-file src="src/android/flurryAnalytics_3.4.0.jar"
                      target-dir="libs" />
     </platform>
 
@@ -37,7 +37,7 @@
         <header-file src="src/ios/CDVFlurry.h" />
         <source-file src="src/ios/CDVFlurry.m" />
         <source-file src="src/ios/Flurry.h" />
-        <source-file src="src/ios/libFlurry_4.3.0.a" framework="true" />
+        <source-file src="src/ios/libFlurry_4.3.2.a" framework="true" />
 
         <framework src="Security.framework" />
         <framework src="SystemConfiguration.framework" />
